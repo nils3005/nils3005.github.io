@@ -1,0 +1,48 @@
+h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: cadetblue;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dd{
+    font-size: x-csslarge;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-size: large;
+}
+
+dl{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+.top{
+    background-color: cadetblue;
+    color: white;
+    opacity: 0.6;
+}
+
+:visited{
+    color: white;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:hover{
+    color:honeydew;
+}
