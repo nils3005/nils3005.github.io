@@ -1,27 +1,45 @@
-h1 {
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header h1{
+    background-color: cadetblue;
+    opacity: 0.8;
+    color:white;
+    min-height: 250px;
+    overflow: auto;
     font-size: 3em;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin: 0;
+}
+
+.top{
+    padding: 30px 0px 30px 0px;
+    background-color: cadetblue;
+    color: white;
+    opacity: 0.6;
+}
+
+div{
+    padding: 0px 50px 0px 50px;
+    margin: 0;
+}
+
+.list{
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.75em;
 }
 
 h2{
     color: cadetblue;
     font-size: 1.25em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-dd{
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-li{
-    font-size: 1em;
-    list-style-type:circle;
-}
-
-dl{
-    font-size: 2.25em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -32,18 +50,26 @@ dl{
     background-color:white;
 }
 
-.top{
-    background-color: cadetblue;
-    color: white;
-    opacity: 0.6;
-    border-radius: 50px;
+.main li{
+    font-size: 1em;
+    list-style-type: circle;
+}
+
+.bot{
+    min-height: 300px;
+    background-color: black;
+    opacity: 0.9;
+    justify-content: center;
+    display:flex;
+    align-items: center;    
 }
 
 .socials{
     display: block;
     margin: auto;
-    height: 150px;
     width: 150px;
+    height: 150px;
+    background-color: black;   
 }
 
 :visited, :link{
@@ -54,8 +80,4 @@ dl{
 
 :hover{
     color:honeydew;
-}
-
-div{
-    padding: 0px 100px 0px 50px;
 }
