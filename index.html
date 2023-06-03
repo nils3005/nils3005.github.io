@@ -8,12 +8,11 @@
     </head>
     <body>
         <header>
-            <h1>Cheat sheet für Softwareentwicklung</h1>
+            <h1 id="oben">Cheat sheet für Softwareentwicklung</h1>
         </header>
 
         <div class="top">
             <ul class="list">
-                
                 <a href="#rekursion"><li>Rekursion / Dynamic Programming</li></a>
                 <a href="#dfs"><li>DFS</li></a>
                 <a href="#bfs"><li>BFS</li></a>
@@ -23,45 +22,41 @@
         </div>
 
         <div class="main">
-            <a id="rekursion">
-                <h2>Rekursion / Dynamic Programming</h2>
-                <ul>
-                    <li>Bestimmung eines Rekursionsankers - Welche Eingabe führt zu einem bestimmbaren Ergebnis</li>
-                    <li>Aufbrechen in Unterprobleme → Welches Problem lässt sich am einfachsten lösen? (meistens der Rekursionsanker)</li>
-                </ul>
-            </a>
+            <h2 id="rekursion">Rekursion / Dynamic Programming</h2>
+            <ul>
+                <li>Bestimmung eines Rekursionsankers - Welche Eingabe führt zu einem bestimmbaren Ergebnis</li>
+                <li>Aufbrechen in Unterprobleme → Welches Problem lässt sich am einfachsten lösen? (meistens der Rekursionsanker)</li>
+            </ul>
 
-            <a id="dfs">
-                <h2>DepthFirstSearch (DFS)</h2>
-                <ul>
-                    <li>Deutsch: Tiefensuche</li>
-                    <li>Nutzt einen Stack → Untersucht einen Pfad “blind” bis ein Ende erreicht wird</li>
-                </ul>
-            </a>
-
-            <a id="bfs">
-                <h2>BreathFirstSearch (BFS)</h2>
-                <ul>
-                    <li>Deutsch: Breitensuche</li>
-                    <li>Nutzt eine Queue → Untersucht jeden Pfad bis ein Ende erreicht wird</li>
-                </ul>
-            </a> 
+            <h2 id="dfs">DepthFirstSearch (DFS)</h2>
+            <ul>
+                <li>Deutsch: Tiefensuche</li>
+                <li>Nutzt einen Stack → Untersucht einen Pfad “blind” bis ein Ende erreicht wird</li>
+            </ul>
             
-            <a id="twoPointer">
-                <h2>Two-Pointer-Approach</h2>
-                <ul>
-                    <li>Ein "schneller" und ein "langsamer" Pointer</li>
-                    <li>Je nach Fall werden die Werte der Pointer verschoben</li>
-                    <li>While-Schleife (meistens solange links ≤ rechts)</li>
-                </ul>
-            </a>
+            <h2 id="bfs">BreathFirstSearch (BFS)</h2>
+            <ul>
+                <li>Deutsch: Breitensuche</li>
+                <li>Nutzt eine Queue → Untersucht jeden Pfad bis ein Ende erreicht wird</li>
+            </ul>            
+        
+            <h2 id="twoPointer">Two-Pointer-Approach</h2>
+            <ul>
+                <li>Ein "schneller" und ein "langsamer" Pointer</li>
+                <li>Je nach Fall werden die Werte der Pointer verschoben</li>
+                <li>While-Schleife (meistens solange links ≤ rechts)</li>
+            </ul>
+            
+            <h2 id="bruteForce">Brute-Force-Approach</h2>
+            <ul>
+                <li>Geht jede mögliche Kombination der Daten durch</li>
+                <li>Meistens die einfachste Strategie, aber auch am ressourcenaufwendigsten</li>
+            </ul>            
+        </div>
 
-            <a id="bruteForce">
-                <h2>Brute-Force-Approach</h2>
-                <ul>
-                    <li>Geht jede mögliche Kombination der Daten durch</li>
-                    <li>Meistens die einfachste Strategie, aber auch am ressourcenaufwendigsten</li>
-                </ul>
+        <div class="arrow">
+            <a href="#oben">
+                <img src="arrowUp.jpg" id="arrowUp">
             </a>
         </div>
 
